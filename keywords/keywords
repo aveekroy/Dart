@@ -1,0 +1,93 @@
+Words with the superscript 1 are contextual keywords, 
+which have meaning only in specific places. 
+They’re valid identifiers everywhere.
+
+sync 1
+async 1
+on 1
+hide 1
+show 1 
+
+
+Words with the superscript 2 are built-in identifiers. 
+To simplify the task of porting JavaScript code to Dart, 
+these keywords are valid identifiers in most places, 
+but they can’t be used as class or type names, or as import prefixes.
+
+abstract 2 
+import 2
+as 2 
+export 2 	
+interface 2 
+extension 2 	
+library 2	
+external 2 	
+mixin 2 
+factory 2
+typedef 2
+operator 2
+part 2
+covariant 2 	
+Function 2
+get 2
+set 2 
+deferred 2 	 
+dynamic 2 	
+implements 2 	
+static 2
+
+
+Words with the superscript 3 are limited reserved words related to asynchrony support. 
+You can’t use await or yield as an identifier in any function body marked with 
+async, async*, or sync*.
+
+await 3 
+yield 3
+
+
+Other keywords:
+
+var
+true
+false
+const
+final
+
+void
+null
+return
+
+if
+else
+do 
+while 
+for
+switch
+case
+default
+break
+continue
+
+
+try
+catch
+throw
+rethrow
+finally
+
+class
+enum
+this
+super
+extends	 	
+new
+
+in 	
+assert 	
+is 	
+with
+
+
+ 	 	 	
+	 	
+ 	 		 
