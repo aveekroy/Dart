@@ -1,5 +1,6 @@
 //Know about ??= and ?? and ?.
 //        and => and .. and _
+//        and condition ? trueValue : falseValue
 
 main(List<String> args) {
   // ---------------------------------------------------
@@ -52,8 +53,38 @@ main(List<String> args) {
   bool hasEmpty1 = aListOfStrings.any((s) => s.isEmpty);
   print(hasEmpty);
   print(hasEmpty1);
+
+  // ---------------------------------------------------
+  //        .. Cascades
+  // ---------------------------------------------------
+  BigObject bo = BigObject();
+  fillBigObject(bo);
+  print(bo.aList);
+  print(bo._done);
 }
 
+//Used for ?.
 class SomeObject {
   String username() => "aeon";
+}
+
+//Used for ..
+class BigObject {
+  int anInt = 0;
+  String aString = '';
+  List<double> aList = [];
+  bool _done = false;
+
+  void allDone() {
+    _done = true;
+  }
+}
+
+//Used for ..
+BigObject fillBigObject(BigObject obj) {
+  return obj
+    ..anInt = 1
+    ..aString = 'String!'
+    ..aList.add(3)
+    ..allDone();
 }

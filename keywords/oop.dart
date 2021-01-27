@@ -30,4 +30,23 @@ main(List<String> args) {
 
   var voyager3 = Spacecraft.unlaunched('Voyager III');
   voyager3.describe();
+
+  //Setters and Getters in Dart
+  MyClass mc = MyClass();
+  print(mc.aProperty);
+  mc.aProperty = 5;
+  print(mc.aProperty);
+}
+
+//Setters and Getters in Dart
+class MyClass {
+  int _aProperty = 0;
+
+  int get aProperty => _aProperty;
+
+  set aProperty(int value) {
+    if (value >= 0) {
+      _aProperty = value;
+    }
+  }
 }
