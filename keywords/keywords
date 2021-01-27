@@ -1,3 +1,49 @@
+Keywords mostly used:
+
+var
+true
+false
+const
+final
+
+void
+null
+return
+
+Control-flow statements:
+if
+else
+do 
+while 
+for
+in 	
+switch
+case
+assert
+default
+break
+continue
+
+Error-Handling:
+try
+catch
+throw
+rethrow
+finally
+
+OOP-related:
+class
+enum
+this
+super
+extends	 	
+new
+
+
+is 	
+with
+
+
 Words with the superscript 1 are contextual keywords, 
 which have meaning only in specific places. 
 They’re valid identifiers everywhere.
@@ -15,7 +61,7 @@ these keywords are valid identifiers in most places,
 but they can’t be used as class or type names, or as import prefixes.
 
 abstract 2 
-import 2
+import 2  - for bringing in packages or 
 as 2 
 export 2 	
 interface 2 
@@ -45,47 +91,7 @@ await 3
 yield 3
 
 
-Other keywords:
 
-var
-true
-false
-const
-final
-
-void
-null
-return
-
-if
-else
-do 
-while 
-for
-switch
-case
-default
-break
-continue
-
-
-try
-catch
-throw
-rethrow
-finally
-
-class
-enum
-this
-super
-extends	 	
-new
-
-in 	
-assert 	
-is 	
-with
 
 
  	 	 	

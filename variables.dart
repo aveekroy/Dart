@@ -3,24 +3,32 @@ void main(List<String> args) {
   var name1 = 'Aveek';
   dynamic name2 = 'Tanny';
   String name3 = 'Ayansh';
-  print(name1 + name2 + name3);
+  print(name1);
+  print(name2);
+  print(name3);
 
+  //Integer
   var year = 1977;
   int year1 = 2021;
+  print(year);
+  print(year1);
+  //Decimal
   var antennaDiameter = 3.7;
   double antennaDiameter1 = 4.7;
+  print(antennaDiameter);
+  print(antennaDiameter1);
+  //Boolean
+  var ifFull = true;
+  bool ifEmpty = false;
+  print(ifFull);
+  print(ifEmpty);
   //Arrays
   var flybyObjects = ['Jupiter', 'Saturn', 'Uranus', 'Neptune'];
+  print(flybyObjects);
   //Object
   var image = {
     'tags': ['saturn'],
     'url': '//path/to/saturn.jpg'
   };
-
-  print(year);
-  print(year1);
-  print(antennaDiameter);
-  print(antennaDiameter1);
-  print(flybyObjects);
   print(image);
 }
